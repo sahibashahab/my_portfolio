@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Animal-recognition",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the AI. I use the model CNN .",
+    "skills": ["python", "AI"],
+    "source": "https://github.com/sahibashahab/animal_recognition.git"
+  },
+  {
+    "title": "Tic-Tac-toe",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn c sharpe and using socke programming.",
+    "skills": ["c sharpe"],
+    "source": "https://github.com/sahibashahab/tic-tac-toe-game-.git"
+  },
+  {
+    "title": "RSA algorithm",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the RSA. Rsa is asymmetric cryptography algorithm..",
+    "skills": ["python"],
+    "source": "https://github.com/sahibashahab/rsa_crypto.git"
+  }
+]

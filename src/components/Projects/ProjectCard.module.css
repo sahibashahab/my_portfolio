@@ -1,0 +1,111 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 18px 0 #04152d;
+}
+
+.image {
+  margin-bottom: 26px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.image img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #d1d1d1;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  color: #ffffff;
+  padding: 2px 22px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.skill:hover {
+  background: #415a77;
+  transform: scale(1.1);
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 1px 22px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.link:hover {
+  background: var(--color-primary-dark);
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeIn 0.6s ease-in-out;
+}
